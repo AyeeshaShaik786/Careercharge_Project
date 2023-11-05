@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+ div{
+    height: 100px;;
+    width: 100p0x;
+ }
+ /* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+ 
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+ 
+ p{
+    font-size: larger;
+    font-style: normal;
+ }
+ .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 225, 0);
+}
+#innerDiv{
+    height: 100px;;
+    width: 100p0x;
+    background-color: aqua;
+}
+</style>
+</head>
+<body>
+   
+    <div>
+   
+    <h1 style="color: blue; font-style: oblique; text-align: center;">INDIAN REGIONAL FOODS<hr></h1>
+    </div>
+ 
+    <div class="container">
+        <img src="image4.jpeg" alt="Snow" style="width:100%; opacity: 0.4;">
+      <div class="centered">
+        <h1>Search your recipies</h1>
+        <td> <div>
+            <textarea name="normal" cols="50" rows="3"
+            placeholder="search your food items"></textarea>
+        </div>
+      </div><hr>
+ 
+        <div id="innerDiv"><br>
+            <select name="Recipies" style="position:relative;">
+                <option item="select recipies">Recipies</option>
+                        <option item="Dosa">Dosa</option>
+                        <option item="Idly">Idly</option>
+                        <option tem="Vada">Vada</option>
+                        <option item="Upma">Upma</option>
+                        <option item="Vuggani">Vuggani</option>
+                        <option item="Colour rice">Colour rice</option>
+                        <option item="Puri">Puri</option>
+                        </select>
+        </div>
+         
+ 
+</body>
+</html>
